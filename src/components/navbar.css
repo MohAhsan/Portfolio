@@ -1,0 +1,10 @@
+.navbar {
+    display: flex;
+    justify-content: right;
+
+}
+
+.navbar li {
+    display: inline-block;
+    margin: 20px;
+}

@@ -1,0 +1,35 @@
+#footer {
+    height: 10vh;
+    background-color: rgb(228, 218, 191);
+    margin-top: 50px;
+    transition: 0.5s ease-in-out;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#footer img, a {
+    height: 30px;
+
+
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#footer img:hover {
+    transform: scale(1.2);
+    transition: 0.1s ease-in-out;
+}
+
+#footer h1 {
+    margin: 0px;
+    margin-right: 20px;
+    font-size: 30px;
+
+}

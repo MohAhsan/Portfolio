@@ -1,0 +1,35 @@
+.body {
+    flex: 1;
+}
+
+
+.body>img {
+    height: 20vh;
+    width: 20vh;
+    margin-top: 10px;
+    border-radius: 40%;
+    box-shadow: 1px 1px 2px rgba(228, 218, 191);
+    transition: 0.3s ease-in-out;
+}
+
+.body p {
+    width: 60%;
+    margin: 0px;
+    display: inline-block;
+}
+
+.body>img:hover {
+    transform: scale(1.3);
+
+}
+
+
+
+.body #divider {
+    width: 70%;
+    background-color: rgba(228, 218, 191);
+    height: 2px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
